@@ -5,7 +5,7 @@ document.querySelectorAll("img")[1].setAttribute("src", "./images/dice" + random
 if (random1 === random2) {
     document.querySelector("h1").innerHTML = "Tie!";
 } else if (random1 > random2) {
-    document.querySelector("h1").innerHTML = "🚩Player1 Win!";
+    document.querySelector("h1").innerHTML = "🚩Player1 Wins!";
 } else if (random1 < random2) {
-    document.querySelector("h1").innerHTML = "Player2 Win!🚩";
+    document.querySelector("h1").innerHTML = "Player2 Wins!🚩";
 }
